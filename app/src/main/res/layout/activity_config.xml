@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Sección de vinculación de dispositivo Bluetooth -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_device"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buscarBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="linkBluetoothDevice"
+        android:text="Buscar Dispositivos" />
+
+    <Button
+        android:id="@+id/permiso"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:text="habilitar permisos" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="@string/rango_normal_ritmo_cardiaco"
+        android:textStyle="bold" />
+
+    <!-- Sección de establecimiento del rango normal de ritmo cardiaco -->
+    <EditText
+        android:id="@+id/min_hr_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ritmo_cardiaco_minimo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/max_hr_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ritmo_cardiaco_maximo"
+        android:minHeight="48dp" />
+
+    <!-- Sección de modificación de datos personales -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_informacion_personal"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/edit_info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="editPersonalInfo"
+        android:text="Agregar informacion personal" />
+
+</LinearLayout>

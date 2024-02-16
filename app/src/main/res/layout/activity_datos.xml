@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint=" #D3D3D3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Datos"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/NombreC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Nombre: Juan"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ApellidosC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Apellido: Pérez"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/DireccionC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Dirección: Calle 123"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TelefonoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Teléfono: 555-1234"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Datos Medico"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/NombreDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Nombre: Dr. García"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/DireccionDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Dirección: Hospital X"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TelefonoDr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Teléfono: 555-5678"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/irMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar e Ir al menú" />
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editar" />
+
+</LinearLayout>

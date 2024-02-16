@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint=" #D3D3D3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center_horizontal"
+        android:text="@string/medicioness"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-32dp"
+        android:layout_marginBottom="2dp"
+        android:padding="16dp"
+        android:text="@string/ritmo_card_aco_actual_80"
+        android:textSize="18sp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+
+    <Button
+        android:id="@+id/preAlta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test de presión alta" />
+
+    <Button
+        android:id="@+id/preBaja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test de presión Baja" />
+
+
+</LinearLayout>

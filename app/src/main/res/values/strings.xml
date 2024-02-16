@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Abrazaheart</string>
+    <string name="editar_datos">Editar Datos</string>
+    <string name="conectarbluetooth">ConectarBluetooth</string>
+    <string name="ajustar_rango_normal_ritmo_cardiaco">Ajustar Rango normal Ritmo cardiaco</string>
+    <string name="alert_button_text" />
+    <string name="bienvenido_a_abrazaheart">Bienvenido a Abrazaheart</string>
+    <string name="datos">Datos</string>
+    <string name="mediciones">Mediciones</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="link_bluetooth_device">link bluetooth device</string>
+    <string name="bluetooth_device">bluetooth device</string>
+    <string name="rango_normal_ritmo_cardiaco">rango normal ritmo cardiaco</string>
+    <string name="ritmo_cardiaco_minimo">ritmo cardiaco minimo</string>
+    <string name="ritmo_cardiaco_maximo">ritmo cardiaco maximo</string>
+    <string name="editar_informacion_personal">editar informacion personal</string>
+    <string name="editar_informacion_personalbtn">editar informacion personal</string>
+    <string name="ritmo_card_aco_actual_80">Ritmo cardíaco actual: 80</string>
+    <string name="medicioness">Mediciones</string>
+    <string name="heart_rate_alert_title">fuera de rango favor de descansar</string>
+    <string name="heart_rate_alert_message">Necesito ayuda por favor\n</string>
+    <string name="ok">ok</string>
+</resources>
